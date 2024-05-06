@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Sample : Dialog</string>
+    <string name="dialog_title">Title</string>
+    <string name="dialog_msg">This is Message</string>
+    <string name="dialog_btn_ok">OK</string>
+    <string name="dialog_btn_ng">Cancel</string>
+    <string name="dialog_btn_nu">Neutral</string>
+    <string name="dialog_ok_toast">OK clicked</string>
+    <string name="dialog_ng_toast">NG clicked</string>
+    <string name="dialog_nu_toast">Neutral clicked</string>
+</resources>

@@ -1,0 +1,37 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "master"
+include ':saveimage'
+include ':customview1'
+include ':app'
+include ':fragment'
+//include ':app'
+/*include ':app'
+include ':app'
+include ':lifecycle'
+include ':webview'
+//include ':listmenu' //Error
+include ':toolbar'
+include ':dialog'
+include ':menu'
+include ':simplelistmenu'
+include ':cameraintent'
+include ':custombutton'
+include ':customview1'
+include ':fragment'
+include ':saveimage'*/
+include ':loadimage'
+include ':listfilename'
+include ':intentchangeactivity'

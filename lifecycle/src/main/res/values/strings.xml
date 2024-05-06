@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Sample : Life Cycle</string>
+    <string name="bt_next">Show Next Activity</string>
+    <string name="bt_previous">Show Previous Activity</string>
+</resources>

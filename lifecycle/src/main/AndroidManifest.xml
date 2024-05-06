@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Master">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+           <!--
+           android:exported="true"
+            他のアプリからのIntentによって直接起動できるようになるオプション-->
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <!--
+                action android:name="android.intent.action.MAIN"
+                 この設定は、アクティビティがアプリケーションの「メイン」エントリーポイントであることを示しています。
+                 つまり、このアクティビティはアプリケーションが直接起動されたときに最初に実行されるべきものであることを示しています。
+                 このアクションは、通常、アプリケーションのスタート画面やホーム画面を提供するアクティビティに設定されます。
+
+                category android:name="android.intent.category.LAUNCHER"
+                 アクティビティがデバイスのホーム画面から起動できる「Launcher」であることを示す。
+                 デバイスのホーム画面にアイコンとして表示され、ユーザーがアイコンをタップすることで直接アクティビティを開始できる。
+                 -->
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".SubActivity"
+            android:exported="true">
+        </activity>
+
+    </application>
+
+</manifest>

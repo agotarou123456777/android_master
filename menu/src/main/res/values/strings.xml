@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Sample : Menu</string>
+    <string name="menu_delete">delete</string>
+</resources>
